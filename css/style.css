@@ -1,0 +1,56 @@
+.text-box  h3:first-child{
+    color:pink
+    }
+    .text-box #greycol {
+        color:grey
+    }
+    .text-box div p {
+        color:red
+    }
+    .text-box p.yellow{
+        color:yellow
+    }
+    li:hover {
+        background-color: lightblue;
+    }
+    
+    .list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .item{
+        width: 100px;
+        height: 150px;
+        border: solid teal;
+    }
+    .item:nth-child(even):active {
+        box-shadow: 10px 6px 4px 3px teal;
+    }
+    .item:last-child:hover{
+        background-color: crimson;
+    }
+    .item:nth-child(3){
+        background-color: azure;
+    }
+    .item:nth-child(even){
+        background-color: blueviolet;
+    }
+    .item:first-child  {
+        background-color: coral;
+    }
+   
+    .item:checked{
+        background-color: blue;
+    }
+    .item a:visited {
+        color: purple;
+    }
+    .item a:link{
+        color: purple;
+    }
+    .item:not(5){
+        color: chocolate;
+    }
